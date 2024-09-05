@@ -184,7 +184,7 @@ const Dashboard = ({ user }) => {
 
     return (
         <div style={{ textAlign: 'left', padding: '50px' }}>
-            <center><h1>Welcome, {user.email}</h1></center>
+            <h1>Welcome, {user.email}</h1>
             <h1>Welcome to Career Pathway Advisor</h1>
             <p>The "Career Pathway Advisor" is an educational web application designed to guide students through their academic and career choices. The application provides tailored information for different educational stages, helping students and their guardians make informed decisions about their future. Please select your present studying category; if you are studying in 8th, 9th, or 10th, please select the 'up to 10th class' in the select box below.</p>
 
